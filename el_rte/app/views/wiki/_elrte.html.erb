@@ -1,0 +1,11 @@
+<%= javascript_tag do %>
+$(document).ready(function(){
+  var opts = {
+    lang         : 'en',
+    styleWithCSS : false,
+    height       : 400,
+    toolbar      : 'maxi'
+  };
+  $('#content_text').elrte(opts);
+});
+<% end %>
